@@ -1,0 +1,78 @@
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Times New Roman " !important;
+    color: #CBC3E3 !important;
+    border: 1px solid #CBC3E3;
+}
+
+
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+
+
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #CBC3E3;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #CBC3E3;
+    /* border-color: #CBC3E3; */
+}
+
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    color: #777;
+    cursor: default;
+    background-color: #fff;
+    /* border-color: #ddd; */
+}
+
+
+
+.selectConaiter {
+    display: inline-block;
+    width: 50px !important;
+    background: #fff;
+    cursor: pointer;
+}
+
+.dataTables_info {
+    width: 20%;
+    display: inline-block;
+    padding: 5px 5px 3px 0;
+    margin-top: 35px;
+    position: absolute;
+    float: right;
+    right: 1%;
+    text-align: right;
+    margin-top: -65px;
+    margin-right: 12px;
+}
